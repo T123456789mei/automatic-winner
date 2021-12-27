@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "suitename">
+    <test name = "runAll">
+        <classes>
+            <class name = "com.mooc.group.GroupsOnClass1"/>
+            <class name = "com.mooc.group.GroupsOnClass2"/>
+            <class name = "com.mooc.group.GroupsOnClass3"/>
+        </classes>
+        <test name = "onlyRunStu">
+            <classes>
+                <groups>
+                    <run>
+                        <include name = "stu"/>
+                    </run>
+                </groups>
+                <class name = "com.mooc.group.GroupsOnClass1"/>
+                <class name = "com.mooc.group.GroupsOnClass2"/>
+                <class name = "com.mooc.group.GroupsOnClass3"/>
+            </classes>
+
+        </test>
+    </test>
+
+</suite>
