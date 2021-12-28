@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "parameter">
+    <test name = "Param">
+        <classes>
+            <parameter name= "name" value= "zhangsan"/>
+            <parameter name= "age" value= "10"/>
+            <class name = "com.mooc.paramter.ParameterTest"/>
+        </classes>
+    </test>
+
+</suite>
