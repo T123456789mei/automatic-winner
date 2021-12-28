@@ -12,4 +12,9 @@ public class TimeAutTest {
     public void testFaill()throws InterruptedException{
         Thread.sleep(3000);
     }
+
+    @Test(timeOut = 2000)
+    public void te1tFaill()throws InterruptedException {
+        Thread.sleep(3000);
+    }
 }
