@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ceshi" />
         <module name="automatic-winner" />
+        <module name="Chapter6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="automatic-winner" target="1.5" />
       <module name="ceshi" target="1.5" />
+      <module name="Chapter6" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
